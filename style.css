@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  }
+  /* .first {
+    height: auto;
+    weight: auto;
+  } */
+.block {
+  weight: 100vw;
+  height: 100vh;
+}
+.rome{
+  background-image: url("img/rome.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
+.bucharest {
+  background-image: url("img/bucharest.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
+.tokyo {
+  background-image: url("img/tokyo.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 250px;
+}
