@@ -1,14 +1,16 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  }
-  /* .first {
-    height: auto;
-    weight: auto;
-  } */
-.block {
-  weight: 100vw;
-  height: 100vh;
+}
+#block {
+  background-size: cover;
+  background-color: #1e4d60;
+  margin: 0;
+  padding: 0;
+}
+.first {
+  height: auto;
+  border:3px solid #fff;
 }
 .rome{
   background-image: url("img/rome.jpg");
@@ -27,4 +29,11 @@
   background-size: cover;
   width: 300px;
   height: 250px;
+}
+
+#block > div.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
