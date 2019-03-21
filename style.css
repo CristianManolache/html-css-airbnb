@@ -19,7 +19,7 @@ body{
   left: 10%;
   bottom: 10%;
 }
-/* TEXT ROME+BUCAREST+TOKYO id #BLOCK*/
+/* TEXT ROME+BUCHAREST+TOKYO id #BLOCK*/
 .text {
   border-style: solid;
   border-radius: 5px;
@@ -70,16 +70,16 @@ body{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
-/* BUCAREST IMAGES + TEXT + HOVER */
-.bucarest {
-  background-image: url("img/bucarest.jpg");
+/* BUCHAREST IMAGES + TEXT + HOVER */
+.bucharest {
+  background-image: url("img/bucharest.jpg");
   background-size: cover;
   width: 300px;
   height: 200px;
   opacity: 0.9;
   display: block;
 }
-.bucarest > .text2 {
+.bucharest > .text2 {
   position: absolute;
   bottom: 100%;
   left: 0;
@@ -92,7 +92,7 @@ body{
   height:0;
   transition: 0.8s ease;
 }
-.bucarest:hover .text2 {
+.bucharest:hover .text2 {
   bottom: 0;
   height: 100%;
 }
