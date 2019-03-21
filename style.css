@@ -13,47 +13,136 @@ body{
   width: 100vw;
 }
 .first {
-  height: auto;
   border:5px solid #fff;
   position: relative;
   top: 10%;
   left: 10%;
+  bottom: 10%;
 }
-/* IMAGES */
-.rome{
-  background-image: url("img/rome.jpg");
-  background-size: cover;
-  width: 300px;
-  height: 200px;
-  opacity: 0.8;
-}
-.bucharest {
-  background-image: url("img/bucharest.jpg");
-  background-size: cover;
-  width: 300px;
-  height: 200px;
-  opacity: 0.8;
-}
-.tokyo {
-  background-image: url("img/tokyo.jpg");
-  background-size: cover;
-  width: 300px;
-  height: 200px;
-  opacity: 0.8;
-}
-/* TEXT */
+/* TEXT ROME+BUCAREST+TOKYO id #BLOCK*/
 .text {
   border-style: solid;
   border-radius: 5px;
   position: absolute;
+  text-shadow: white;
   font-family: Comic;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   color: white;
-  font-size: 30px;
-  cursor: pointer;
+  font-size: 40px;
 }
-#block:hover .text {
+/* ROME IMAGES + TEXT + HOVER */
+.rome{
+  background-image: url("img/rome.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  opacity: 0.9;
+  position: relative;
+  display:block;
+}
+.rome > .text1 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-image: url("img/italy.png");
+  background-size: cover;
+  overflow: hidden;
+  word-wrap: break-word;
+  width: 100%;
+  height:0;
+  transition: 0.8s ease;
+}
+.rome:hover .text1 {
+  bottom: 0;
+  height: 100%;
+}
+.word1 {
+  white-space: nowrap;
+  color: #5e1127;
+  font-size: 30px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* BUCAREST IMAGES + TEXT + HOVER */
+.bucarest {
+  background-image: url("img/bucarest.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  opacity: 0.9;
   display: block;
+}
+.bucarest > .text2 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-image: url("img/romania.png");
+  background-size: cover;
+  overflow: hidden;
+  word-wrap: break-word;
+  width: 100%;
+  height:0;
+  transition: 0.8s ease;
+}
+.bucarest:hover .text2 {
+  bottom: 0;
+  height: 100%;
+}
+.word2 {
+  white-space: nowrap;
+  color: #fff;
+  font-weight: lighter;
+  font-size: 25px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* TOKYO IMAGES + TEXT + HOVER */
+.tokyo {
+  background-image: url("img/tokyo.jpg");
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  opacity: 0.9;
+  display: block;
+}
+.tokyo > .text3 {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-image: url("img/japan.png");
+  background-size: cover;
+  overflow: hidden;
+  word-wrap: break-word;
+  width: 100%;
+  height:0;
+  transition: 0.8s ease;
+}
+.tokyo:hover .text3 {
+  bottom: 0;
+  height: 100%;
+}
+.word3 {
+  white-space: nowrap;
+  color: #1c1c1c;
+  font-weight: lighter;
+  font-size: 30px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
